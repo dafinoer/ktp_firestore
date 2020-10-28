@@ -1,0 +1,14 @@
+include: package:pedantic/analysis_options.1.9.0.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    - always_put_control_body_on_new_line
+    - always_put_required_named_parameters_first
+    - always_specify_types
+    - camel_case_types
+    - prefer_single_quotes
